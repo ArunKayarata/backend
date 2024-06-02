@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const projectrouter=require('../Backend/controllers/projects')
 
-
+app.use(cors());
 const app = express();
 
 
